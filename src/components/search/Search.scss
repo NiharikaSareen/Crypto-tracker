@@ -1,0 +1,14 @@
+@import "../../layout/variable";
+
+.search-input{
+  width: 25rem;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid var(--color-grey);
+  font-size: 1.25rem;
+  background-color: transparent;
+  &:active,
+  &:focus{
+    outline: none;
+  }
+}

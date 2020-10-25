@@ -1,0 +1,7 @@
+@import "../../layout/variable";
+.container{
+  margin: 3rem 10rem;
+  @include respond(tab-port){
+    margin: 2rem;
+  }
+}

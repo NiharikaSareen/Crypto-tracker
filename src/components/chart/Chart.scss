@@ -1,0 +1,7 @@
+@import "../../layout/variable";
+.chart-container{
+  margin: 4rem;
+  @include respond(tab-port){
+    margin: 2rem;
+  }
+}

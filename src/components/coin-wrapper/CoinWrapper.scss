@@ -1,0 +1,26 @@
+@import "../../layout/variable";
+
+.search-container{
+display: flex;
+justify-content: center;
+}
+.table-container{
+  overflow-x: auto;
+.table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 3rem;
+  @include respond(tab-port){
+   thead tr th:nth-child(2),
+   thead tr th:nth-child(4),
+   thead tr th:nth-child(5),
+   thead tr th:nth-child(6),
+   tbody tr td:nth-child(2),
+   tbody tr td:nth-child(4),
+   tbody tr td:nth-child(5),
+   tbody tr td:nth-child(6)
+    { display : none}
+  
+  }
+}
+}
