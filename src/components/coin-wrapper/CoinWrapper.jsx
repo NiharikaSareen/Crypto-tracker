@@ -4,8 +4,6 @@ import BaseURL from '../../api/APIUtils';
 import Search from '../search/Search'
 import CoinList from '../coinList/CoinList';
 import TableHeader from '../table-header/TableHeader';
-import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import './CoinWrapper.scss';
 
 //initial states are set for
